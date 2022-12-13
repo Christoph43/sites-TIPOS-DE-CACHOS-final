@@ -1,0 +1,1117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*iniciando a edição da header*/
+header{
+    width: 100%;
+    height: 5vw;
+    position: fixed;
+    z-index: 1;
+    background-color:#FFFFFF;
+}
+
+#spaNoi{
+    width: 7vw;
+    height: 4vw;
+    margin-left:2.1em ;
+    padding-top: 0.3em;   
+}
+/* editando a primeira lista da header*/
+.primeiraLiista{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:66vw;
+    height: 2vw;
+    position: absolute;
+    left:14vw;
+    top:1.2em;
+    padding-right:8vw;
+    color: #9767A9; 
+}
+.dadoOne{
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    padding-right: 1.3vw;
+}
+.negritoLista{
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    font-weight: 800;
+    padding-right: 1.5vw;
+}
+
+/*ativando o hover no menu*/
+.primeiraLiista :hover 
+{ 
+  font-size: 15px;
+  color: #b10aee99;
+}
+
+/*editando campo de busca e icones*/
+form label{
+    width: 10vw;
+    height: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -2.8vw;
+    margin-left: 72vw;
+        
+}
+.pesquisaHeade{
+    width: 10em;
+    height: 2em;
+    border-radius:13px;
+    border: 2px solid #9767A9;
+    padding-left: 2.7em;
+    position: absolute;
+    left: 73vw;
+    bottom: 1.5vw;   
+}
+.reDes{
+    width: 7em;
+    height: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:85vw ;
+    margin-top: -5.3rem;
+    list-style: none;
+}
+.reDess{
+    width: 27px;
+    }
+.lips{
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top:-1.6em;
+    padding-right: 20.7em;
+}
+.lups{
+    width: 20px;
+    position: absolute;
+    left: 74vw;
+}
+
+/*iniciando a edição da main*/
+main{
+    width: 100%;
+    height: 210em;
+ 
+}
+.primeIra{
+    width: 100%;
+    height: 29em;
+}
+.leTraone{
+    font-family:Playfair Display, Black Roman;
+    color: #FFFFFF;
+    font-size: 3.8rem;
+    font-weight: 800;
+    width: 4em;
+    height: 1em;
+    line-height: 4.7vw;
+    margin-left: 15vw;
+    margin-top: -4.1em;  
+}
+.leTratwo{
+    font-family:Montserrat;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 10em;
+    height: 2em;
+    line-height: 2.1vw;
+    margin-left: 60vw;
+    margin-top: -1.5em;
+    opacity: 0.6;
+    letter-spacing: 1.2px;
+}
+.seGunda{
+    background-color: #9767A9;    
+    width: 100%;
+    height: 19vw;
+    position: absolute;
+    z-index: -1;
+}
+.paraHra{
+    width: 50%;
+    height: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 3.7em;
+    padding-top: 30px;
+    opacity: 0.9;
+ 
+}
+.paraHratwo{
+    width: 39.2%;
+    height: 3em;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 42em;
+    margin-top: -12em;
+    opacity: 0.5;
+}
+
+/*Primeira caixa de imagem*/ 
+.imaGem{
+    width: 78vh;
+    height: 24em;
+    margin-top: 10em;
+    margin-left: 6.7em;
+    position: absolute;
+    z-index: -1;
+}
+.quaDradoOne{
+    width: 24em;
+    height: 20em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 11em;
+    margin-top: 27em;
+    background-color: #9767A9;
+}
+.quadradoTWoo{
+    width: 13.7em;
+    padding-right: 5vw; 
+    padding-top: 10px;
+    font-family: Playfair Display, Roman;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.paraGGrafo{
+    color: #FFFFFF;
+    width: 22.8em;
+    padding-right: 7px;
+    padding-bottom: 16px;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    opacity: 0.6;
+}
+
+/*Segunda caixa de imagem*/
+.imaGem2{
+    width: 70vh;
+    height: 24em;
+    margin-left: 45em;
+    margin-top: -21.3em;
+    position: absolute;
+    z-index: -1;
+}
+.quaDradoTwwooo{
+    width: 24vw;
+    height: 21vw;
+    margin-top: -4.1em;
+    margin-left:61.7vw ;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #9767A9;
+}
+.quadradoThree{
+    width: 18em;
+    padding-right: 2.5rem;
+    margin-top: 6px;
+    font-family: Playfair Display, Roman;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.paraGGrafo2{
+    color: #FFFFFF;
+    width: 20vw;
+    height: 14em;
+    margin-left: 3px;
+    margin-bottom: 2.6vw;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 13.5px;
+    opacity: 0.6;
+}
+
+/*Terceira caixa de imagem*/
+.imaGem3{
+    width: 78vh;
+    height: 24em;
+    margin-left: 6.7em;
+    margin-top: -8.2em;
+    position: absolute;
+    z-index: -1;
+}
+.quaDradoThere{
+    width: 25vw;
+    height: 19vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 15vw;
+    margin-top: 12vw;
+    background-color: #9767A9;
+}
+.quadradoTres{
+    width: 10.9em;
+    height: 14vw;
+    line-height:28px;
+    padding-top: 0.8vw;
+    padding-right: 4.8rem;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.paraGGrafo3{
+    color: #FFFFFF;
+    width: 20.5vw;
+    height: 10vw;
+    padding-bottom: 13vw;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+/*Quarta caixa de imagem*/
+.imaGem4{
+    width: 70vh;
+    margin-left: 45em;
+    height: 24em;
+    margin-top: -18.5em;
+    position: absolute;
+    z-index: -1;
+}
+.quaDradoFour{
+    width: 21em;
+    height: 12.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 49em;
+    margin-top: 4.1em;
+    background-color: #9767A9;
+}
+.quadradoQuatro{
+    width: 13em;
+    padding-left: -17px;
+    text-align: center;
+    font-family: Playfair Display, Roman;
+    font-size: 23.7px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo4{
+    color: #FFFFFF;
+    width: 20em;
+    padding: 1px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 14px;
+    opacity: 0.6;
+ }
+
+/*Quinta caixa de imagem*/
+
+ .imaGem5{
+    width: 78vh;
+    height: 24em;
+    margin-left: 6.7em;
+    margin-top: -11.4em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoFive{
+    width: 21.9em;
+    height: 21.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 12em;
+    margin-top: 5.8em;
+    background-color: #9767A9;
+}
+.quadradoCinco{
+    width: 13em;
+    padding-left: 12px;
+    text-align: justify;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo5{
+    color: #FFFFFF;
+    width: 19em;
+    margin-top:-0.5em;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+ }
+
+
+ /*Sexta caixa de imagem*/
+ .imaGem6{
+    width: 70vh;
+    height: 22em;
+    margin-left: 45em;
+    margin-top: -18.7em;
+    position: absolute;
+    z-index: -1;
+}
+.quaDradoSix{
+    width: 21.9em;
+    height: 14em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 50em;
+    margin-top: 0.6em;
+    background-color: #9767A9;
+}
+.quadradoSeis{
+    width: 13em;
+    padding-left: 4px;
+    padding-top: 5px;
+    text-align: justify;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo6{
+    color: #FFFFFF;
+    width: 20em;
+    padding-bottom:10px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+ }
+
+ /*Setima caixa de imagem*/
+
+ .imaGem7{
+    width: 78vh;
+    height: 22em;
+    margin-left: 6.7em;
+    margin-top: -11.2em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoSeven{
+    width: 21.9em;
+    height: 11.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 12em;
+    margin-top: 4.7em;
+    background-color: #9767A9;
+}
+.quadradoSete{
+    width: 13em;
+    padding-left: 11px;
+    text-align: justify;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo7{
+    color: #FFFFFF;
+    width: 19em;
+    margin-top:-0.5em;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+ }
+/*Oitava imagem*/
+ .cobrAs{
+    width: 100%;
+    height: 20rem;
+    margin-top: -20em;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 13em;    
+ }
+ .imaGem8{
+    width: 55vh;
+ }
+
+
+ /*FOTOS GRUPOS*/
+ .sessaoTres{
+    width: 100%;
+    height: 50em; 
+ }
+ .campoUm{
+    width: 37%;
+    height: 39em;
+    position: absolute;
+    left: 6.5em;
+    top: 189em;
+    display: flex;
+    flex-direction: column wrap;/*sei que deveria
+    usar o flex-flow e não o flex-direction. mas não está
+    funcionando. só desta forma*/
+
+ }
+ /*editando as imagens */
+ .ImagemUm{
+    width: 37vh;
+    height: 25em;
+ }
+ .ImagemDois{
+    width: 35vh;
+    height: 30vh;
+    padding-left: 2.3vw;
+ }
+.ImagemTres{
+    width: 30.2vh;
+    height: 31.9vh;
+    position: absolute;
+    top:12.7em;
+    left: 16em;
+}
+.ImagemQuatro{
+    width: 30.2vh;
+    height: 22.6vh;
+    position: absolute;
+    top:25.9em;
+    left: 16em;
+}
+.ImagemCinco{
+    width: 37vh;
+    height: 22.6vh;
+    position: absolute;
+    top:26em;
+    left: 0;
+}
+ /*editando as imagens */
+
+.campoDois{
+    width: 50%;
+    height: 36.4em;
+    position: absolute;
+    left: 35.6em;
+    top: 189em;
+    display: flex;
+    flex-flow: column wrap;
+  
+}
+.ImagemDez{
+    width: 30vh;
+    height: 65vh;
+}/*cigarro*/
+.ImagemNove{
+    width: 26vh;
+    height: 24vh;
+    position: absolute;
+    left: 28em;
+   /*menina*/
+}
+.ImagemOito{
+    width: 26vh;
+    height: 23.8em;
+    margin-left: 1px;
+    margin-top: 10.7em;
+}/*abaixo da menina*/
+.ImagemSete{
+    width: 34vh;
+    height: 34.5em;
+    margin-left: 1px;
+
+}/*calça amarela*/
+.ImagemSeis{
+    width: 30vh;
+    height: 22.7vh;
+    position: absolute;
+    top: 25.9em;
+}/*snopdog*/
+
+
+
+
+ /*Footer*/
+ footer{
+    width: 100%;
+    height: 6rem;
+    position: absolute;
+    top: 284vw;
+    left:0;
+    background-color: #9767A9;
+ }
+.texTofoter{
+  position: absolute;
+  top: 30px;
+  left: 0;  
+}
+ .texTofoter p{
+    width: 52.9em;
+    height: 20px;
+    text-align:left ;
+    font-size:14px;
+    font-family:Montserrat;
+    padding-left: 6.7em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+/* campo de interação a páginas*/
+ .maeLista{
+    width: 27%;
+    height: 4em;
+    position: relative;
+    left: 56em;
+    top: 1em;   
+ }
+ .maeLista li{
+    display:inline-block;
+    width: 5px;
+    padding-right: 7.5em;
+    list-style: none;
+ }
+ .maeLista li img{
+    width: 2.6em;
+    height: 2.8em;
+    margin-top: 10px;
+ }
+ .maeLista li p{
+     width: 7.6em;
+     display: inline;
+     font-family: Montserrat;
+     font-size: 14px;
+     color: #FFFFFF;
+     position: absolute;
+     top: 7px;
+     letter-spacing: 1px;
+     line-height: 18.7px;
+     padding-left: 3.7em;
+ }
+#utimaIcon{    
+  position: absolute;
+  right: 3.7em;
+  top: -1px;
+ }
+ .utimo{
+    position: absolute;
+    right: -0.2em;
+    top: 1px;
+ }
+ /*ativando o efeito hover na interação final do site*/
+
+ul li  :hover{
+background-color: rgba(250, 235, 215, 0.309);
+height: 4vw;
+}
+
+
+
+ /*escondendo item para aparecer só no mobile*/
+ div .Menuus, .Maiin, .leTraMoo,.copyy,.voltAro
+ {
+    display: none;
+ }
+
+
+
+/*começando a formatar o site para uma tela mobile*/
+ @media(min-width:200px) and (max-width:800px)
+ {
+    .primeiraLiista, form, .lips, .reDes, .primeIra{/*escondendo itens para aparecer só no desktop*/
+        display: none;
+      }
+
+          header{
+            width: 100%;
+            height: 8vh;
+            position: fixed;
+            top: 0vw;
+            z-index: 1;
+           
+          }
+       #spaNoi{/*logo do site*/
+            width: 20vw;
+            height: 13vw;
+            margin-left: 4.7em;
+            margin-top: -0.2em;
+          }
+       div .Menuus{
+            display: flex;
+            width:19vw;
+            height: 13vw;
+            margin-left: -1vw;
+            margin-top: -11.8vw;
+          }
+
+          main{
+            width: 100%;
+        }
+       .Maiin, .firstImagem{
+            width: 100%;
+            height: 28em;
+            display: initial;
+          }
+       .truQues{
+        width: 70vw;
+        height: 37vw;
+        position: relative;
+        left: 4vw;
+        bottom: 100vw;
+       }
+       .diCas{
+        display: initial;
+        width: 74vw;
+        height: 20vw;
+        position: relative;
+        bottom: 99vw;
+        left: 9vw;
+        opacity: 0.6;
+       }
+/*fim da primeira sessão da main*/
+/*iniciando a segunda sessão*/
+
+          .seGunda{
+            width: 100%;
+            height: 28em;
+            margin-top: 114vw;
+            background-color: #9767A9;
+            display: initial;
+          }
+          .paraHra p{
+            width: 13em;
+            height: 10em;
+            line-height: 28px;
+            font-size: 24px;
+            font-family:Playfair Display, Black Roman;
+            display: flex;
+            flex-flow: row wrap;
+            margin-left: -3.4em;
+            margin-top: -0.3em;
+          }
+          .paraHratwo p{
+            width: 17.2em;
+            font-size: 19px;
+            font-family: Montserrat, Light;
+            margin-top: 3.4em;            
+            margin-left: -36em;
+            line-height: 25px;
+            
+          }
+          .pDois{
+            width: 17.2em;
+            font-size: 19px;
+            font-family: Montserrat, Light;
+            margin-top: 19px;
+            margin-left: -36em;
+          
+          }
+          .pTres{
+            width: 17.2em;
+            font-size: 19px;
+            font-family: Montserrat, Light;
+            margin-top: 19px;
+            margin-left: -35.9em;
+           
+          }
+
+          /*iniciando a formatação das caixas de imagens e textos*/
+/*primeira imagem*/
+
+          .imaGem{
+               width: 80%;
+               height: 17em;
+               margin-left: 2.3em;
+               margin-top: 60vw;
+               display: initial;
+          }
+          .quaDradoOne{
+            width: 100%;
+            height: 34em;
+            margin-left: 0em;
+            margin-top: 98vw;
+          }
+          .quadradoTWoo{
+            width: 11.6em;
+            font-size: 29px;
+            font-family:Playfair Display, Black Roman;
+            padding-left: px;
+            padding-bottom: 15em;
+          }
+          /*paragrafo 1*/
+          .paraGGrafo {
+            width: 17.9em;
+            font-size: 19px;
+            font-family: Montserrat, Light;
+            margin-top: 3em;
+            margin-left: -19em;
+            opacity: 0.4;
+          }
+             /*paragrafo 2*/
+             .liNhas1, .liNhas2{
+                width: 17.2em;
+                font-size: 19px;
+                font-family: Montserrat, Light;
+                margin-top: 18px;
+                margin-left: 2px;
+             }
+             .liNhas3{
+                width: 17.4em;
+                font-size: 19px;
+                font-family: Montserrat, Light;
+                margin-top: 18px;
+                margin-left: 2px;
+             }
+             .liNhas4, .liNhas5{
+                padding-left: 2px;
+             }
+
+
+
+/*formatação das imagens 2, 3, 4, 5, 6, 7*/
+.imaGem2, .imaGem3, .imaGem4, .imaGem5, .imaGem6,.imaGem7{
+    width: 80%;
+    height: 17em;
+    margin-left: 2.3em;
+    margin-top: 15px;
+}
+
+/*segunda imagem*/
+.quaDradoTwwooo{
+    width: 100%;
+    height: 31em;
+    margin-left: 0em;
+    margin-top: 15.8em;
+}
+.quadradoThree h4{
+    width: 14em;
+    font-size: 29px;
+    font-family:Playfair Display, Black Roman;
+    padding-right: 2.5em;
+    position: absolute;
+    top: 65em;
+    right: 0.1px;
+}
+/*paragrafo 1*/
+.paraGGrafo2{
+    width: 17.9em;
+    height: 20em;
+    font-size: 19px;
+    font-family: Montserrat, Light;
+    margin-top: -14vw;
+    margin-left: 0.2em;
+    opacity: 0.4;
+   
+}
+/*paragrafo 2,3,4,5*/
+.textoCa, .textoCa2, .textoCa3,.textoCa4{
+    padding-top: 14px;
+    font-family:Montserrat, Light;
+}
+
+
+
+/*terceira imagem*/
+.quaDradoThere{
+    width: 100%;
+    height: 19em;
+    margin-left: 0em;
+    margin-top: 14em;
+}
+.quadradoTres h4 {
+    width: 10.5em;
+    font-size: 28.9px;
+    font-family:Playfair Display, Black Roman;
+    padding-right: 2.5em;
+    position: absolute;
+    top: 90em;
+    left:30px;
+}
+/*paragrafo 1 e 2*/
+.paraGGrafo3{
+    width: 17.8em;
+    height: 20em;
+    font-size: 19px;
+    font-family: Montserrat, Light;
+    margin-top: 5.5em;
+    margin-left: 0em;
+   opacity: 0.4;
+}
+.textCa5, .textCa6, .textCa7,.textCa8{
+    font-family: Montserrat, Light;
+ margin-top: 2px;
+ opacity: 0.9;
+ letter-spacing: none;
+}
+
+
+/*quarta imagem */
+.quaDradoFour{
+    width: 100%;
+    height: 19em;
+    margin-left: 0em;
+    margin-top: 17em;
+
+}
+.quadradoQuatro h4{
+    width: 16em;
+    font-size: 26px;
+    font-family:Playfair Display, Black Roman;
+    padding-right: 2.5em;
+    position: absolute;
+    top: 122em;
+    left:5px;
+}
+.paraGGrafo4{
+    width: 18.2em;
+    height: 23em;
+    font-size: 19px;
+    font-family: Montserrat, Light;
+    margin-top: 2.9em;
+    margin-left: 0.3em;
+    opacity: 0.4;
+    text-align: left;
+}
+.textCa9{
+    letter-spacing: 1px;
+}
+
+
+/*quinta imagem*/
+.quaDradoFive{
+    width: 100%;
+    height: 24.5em;
+    margin-left: 0em;
+    margin-top: 12.7em;
+}
+.quadradoCinco h4{
+    width: 16em;
+    font-size: 26px;
+    font-family:Playfair Display, Black Roman;
+    padding-right: 2.5em;
+    position: absolute;
+    top: 141.5em;
+    left:27px;
+}
+.paraGGrafo5{
+    width: 17em;
+    height: 23em;
+    font-size: 19px;
+    font-family: Montserrat, Light;
+    margin-top: 2.8em;
+    margin-left: -1em;
+    opacity: 0.4;
+    text-align: left;
+}
+.textCa10, .textCa11, .textCa12, .textCa13{
+padding-top: 2px;
+}
+
+/*sexta imagem*/
+.quaDradoSix{
+     width: 100%;
+    height: 19.4em;
+    margin-left: 0em;
+    margin-top: 16em;
+}
+.quadradoSeis h4{
+    width: 16em;
+    font-size: 26px;
+    font-family:Playfair Display, Black Roman;
+    padding-right: 2.5em;
+    position: absolute;
+    top: 166.6em;
+    left:29px;
+}
+.paraGGrafo6{
+    width: 17em;
+    height: 23em;
+    font-size: 19px;
+    font-family: Montserrat, Light;
+    margin-top: 2.8em;
+    margin-left: -0.7em;
+    opacity: 0.4;
+    text-align: left;
+}
+.textCe11, .textCe12, .textCe13{
+    padding-top: 2px;
+}
+
+
+/*setima imagem*/
+.quaDradoSeven{
+    width: 100%;
+    height: 16.9em;
+    margin-left: 0em;
+    margin-top: 15em;
+
+}
+.quadradoSete h4{
+    width: 16em;
+    font-size: 26px;
+    font-family:Playfair Display, Black Roman;
+    padding-right: 2.5em;
+    position: absolute;
+    top: 187.7em;
+    left:28px;
+}
+/*paragrafo 1*/
+.paraGGrafo7{
+    width: 16em;
+    height: 23em;
+    font-size: 19px;
+    font-family: Montserrat, Light;
+    margin-top: 2.9em;
+    margin-left: -1.8em;
+    opacity: 0.4;
+    text-align: left;
+}
+
+
+
+/*oitava imagem*/
+.cobrAs{
+    width: 25vh;
+}
+.imaGem8{
+width: 25vh;
+margin-top: 27em;
+position: absolute;
+left:6em
+}
+
+/*sessão das fotos em coluna*/
+.sessaoTres{
+    position: absolute;
+    top:139em;
+    left:-71px;
+}
+/*primeira caixa*/
+.campoUm {
+ width: 84vw;
+ height: 110vw;
+}
+.ImagemUm{
+    width: 16vh;
+    height: 14em;
+}
+.ImagemDois{
+  width: 12vh;
+  height: 5em;
+}
+.ImagemTres{
+    width: 12vh;
+    height: 5em;
+    position: absolute;
+    top: 1px;
+    left: 14.5em;
+}
+.ImagemQuatro{
+    width: 24.4vh;
+    height: 8.4em;
+    margin-left: -31vw;
+    margin-top:-20.3em;
+}
+.ImagemCinco{
+    width: 41.5vh;
+    margin-top: -11.1em;
+}
+
+/*segunda caixa*/
+
+ .campoDois{
+    width: 84vw;
+    height: 80vw;
+    margin-top: 110vw;
+    margin-left: -120vw;
+
+   }
+.ImagemDez{
+    width: 12em;
+    height: 16.5em;
+    margin-left: 8.4em;
+    margin-top:-2px;
+}
+.ImagemSete{/* calça amarela*/
+width: 6.7vh;
+height: 22vh;
+margin-top: 0.1px;
+margin-left: -81vw;
+}
+.ImagemSeis{ /*snoopdog*/
+    margin-left: 19vw;
+    margin-top: -60vw;
+    width: 6.7vh;
+    height: 10.2vh;
+}
+.ImagemOito{/*modelo olhando para horizonte*/
+  width: 6.7vh;
+  height: 22vh;
+  margin-left: -64.9vw;
+  margin-top: 0vw;
+}
+.ImagemNove{/*criança sorrindo*/
+    width: 6.7vh;
+    height: 10vh;
+    margin-top: 11.3em;
+    margin-left: -112vw;
+}
+
+
+
+/*parte do footer*/
+footer, .sessaoFooter{
+    width:100%;
+    height: 40vw;
+   position: absolute;
+   top:374em;
+   background-color: rgba(0, 0, 0, 0.076);
+   
+}
+.copyy{
+display: initial;
+width: 24em;
+height: 30vh;
+margin-left:10vw;
+}
+.voltAro{
+    display: initial;
+    width: 30vw;
+    position: absolute;
+    bottom: 26vw;
+    left: 60vw;
+
+}
+.maeLista, .maeLista ul p, .texTofoter p{
+
+    display: none;
+}
+
+
+ }

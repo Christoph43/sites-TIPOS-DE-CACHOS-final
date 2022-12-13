@@ -1,0 +1,11 @@
+
+- HTML Semântico
+- CSS organizado 
+- Nomes de class com sentido
+- Responsivo
+
+elementos cores 
+#FFFFFF
+#9767A9
+#707070
+#AC95BB
